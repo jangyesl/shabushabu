@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>::혼샤브::1인 샤브 편백찜</title>
+  <style>
+    * { box-sizing: border-box; font-family: 'Pretendard', sans-serif; }
+    body {
+      margin: 0; padding: 0;
+      background: #f9f7f2;
+      color: #333;
+    }
+
+    header {
+      background: #fff;
+      text-align: center;
+      padding: 30px 0;
+      border-bottom: 1px solid #ddd;
+    }
+
+    header img {
+      height: 60px;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin: 0;
+    }
+
+    .menu-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      padding: 40px;
+    }
+
+    .menu-card {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      overflow: hidden;
+      transition: 0.3s;
+    }
+
+    .menu-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .menu-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .menu-info {
+      padding: 20px;
+    }
+
+    .menu-name {
+      font-size: 1.3em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .menu-desc {
+      font-size: 0.95em;
+      color: #666;
+      margin-bottom: 12px;
+      min-height: 48px;
+    }
+
+    .price {
+      font-size: 1em;
+      font-weight: bold;
+      color: #d74c3c;
+    }
+    .subprice {
+      font-size: 0.9em;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="sample/image/ttt.jpg" alt="혼샤브 로고">
+    <h1>프리미엄 1인 샤브 편백찜</h1>
+  </header>
+
+  <div class="menu-container">
+
+    <!-- 메뉴 카드 -->
+    <div class="menu-card">
+      <img src="sample/image/titi.jpg" alt="멸치샤브">
+      <div class="menu-info">
+        <div class="menu-name">기본 혼샤브세트</div>
+        <div class="menu-desc">깊은 육수를 우려낸 깔끔한 샤브샤브</div>
+        <div class="price"> 소고기 150g 9,900원<br><span class="subprice">이베리코 목심 12,900원</span></div>
+      </div>
+    </div>
+
+    <div class="menu-card">
+      <img src="sample/image/titi2.jpg" alt="얼큰샤브">
+      <div class="menu-info">
+        <div class="menu-name">얼큰 혼샤브세트</div>
+        <div class="menu-desc"> 특제소스로 칼칼하고 시원한 맛!</div>
+        <div class="price">소고기 150g 12,900원<br><span class="subprice">이베리코 목심 13,900원</span></div>
+      </div>
+    </div>
+
+    <div class="menu-card">
+      <img src="sample/image/main.jpg" alt="마라샤브">
+      <div class="menu-info">
+        <div class="menu-name">마라 샤브세트</div>
+        <div class="menu-desc">진한 풍미에 얼얼함을 더한 중독성 마라샤브</div>
+        <div class="price">소고기 150g 13,900원<br><span class="subprice">이베리코 목심 13,900원</span></div>
+      </div>
+    </div>
+
+    <!-- 추가 메뉴 계속 복사 가능 -->
+
+        <div class="menu-card">
+      <img src="sample/image/q.jpg" alt="볶">
+      <div class="menu-info">
+        <div class="menu-name">볶음밥 추가 3,000원  </div>
+        <div class="menu-desc"> 유정란이 들어간 채소볶음밥 </div>
+        <div class="price"><br><span class="subprice"></span></div>
+      </div>
+    </div>
+
+          <div class="menu-card">
+      <img src="sample/image/logo.png" alt="음료이미지">
+      <div class="menu-info">
+        <div class="menu-name">음료수 추가 3,000원  </div>
+        <div class="menu-desc"> 콜라 / 제로펩시</div>
+        <div class="price"><br><span class="subprice"></span></div>
+      </div>
+    </div>
+
+          <div class="menu-card">
+      <img src="sample/image/logo.png" alt="주류추가">
+      <div class="menu-info">
+        <div class="menu-name">주류 추가 5,000원  </div>
+        <div class="menu-desc">시원한 생맥주 / 소주 / 병맥주 </div>
+        <div class="price"><br><span class="subprice"></span></div>
+      </div>
+    </div>
+
+
+  </div>
+
+</body>
+</html>
